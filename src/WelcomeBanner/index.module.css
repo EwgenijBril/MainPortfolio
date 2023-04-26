@@ -1,0 +1,17 @@
+.block_banner {
+    margin-top: 80px;
+    padding: 150px 0;
+
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.block_banner h1 {
+    font-size: 50px;
+}
+
+.text {
+    color: #ff760D;
+}
+

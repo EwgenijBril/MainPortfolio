@@ -1,0 +1,35 @@
+.header {
+    background-color: #4d4d4d;
+    /* background-color: #5e5373; */
+    width: 100%;
+    top: 0;
+
+    position: fixed; 
+}
+
+
+.nav_menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    color: white;
+    font-size: 24px;
+    font-family: 'Merriweather', serif;
+}
+    
+.block_menu {
+    display: flex;
+    list-style: none; 
+}
+
+.block_menu a {
+    text-decoration: none;
+}
+
+.block_menu li {
+    padding: 20px 0 20px 100px;
+    font-size: 16px;
+    color: white; 
+}
+

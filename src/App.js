@@ -1,7 +1,8 @@
 import './App.css';
 import NavMenu from './components/NavMenu';
 import AboutMe from './components/AboutMe';
-import WelcomeBanner from './WelcomeBanner';
+import WelcomeBanner from './components/WelcomeBanner';
+import MySkills from './components/MySkills';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <NavMenu/>
       <WelcomeBanner/>
       <AboutMe/>
+      <MySkills/>
     </div>
   );
 }

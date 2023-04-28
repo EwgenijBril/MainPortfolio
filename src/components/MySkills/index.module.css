@@ -1,0 +1,41 @@
+.my_skills {
+    display: block;
+    /* justify-content: space-between; */
+    /* gap: 46px; */
+    padding: 150px 16px;
+}
+
+.my_skills h1{
+    text-align: start;
+    padding: 0 26px;
+}
+
+.my_skills p {
+    padding: 26px 0 0 26px;
+    text-align: justify;
+    font-family: 'Merriweather', serif;
+}
+
+.block_pictures {
+    /* padding: 0 50px  0 70px; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 10px;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+    
+    
+}
+
+.block_pictures img {
+    width: 100px;
+    object-fit: cover;
+}
+
+.block_pictures p {
+    padding: 0;
+   text-align: center;
+    
+}
+

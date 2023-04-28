@@ -1,10 +1,15 @@
 .block_banner {
     margin-top: 80px;
-    padding: 150px 0;
+    padding: 150px 16px;
 
     display: flex;
     justify-content: space-around;
+    align-items: center;
     
+}
+
+.block_banner p {
+    padding: 15px 0;
 }
 
 .block_banner h1 {

@@ -1,23 +1,29 @@
+.block_about_me {
+    background-color: #f4f4f4;
+}
+
 .about_me {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 50px;
+}
 
-    background-color: #f4f4f4;
-    border-radius: 16px;
+.discription_block h1 {
+    padding: 0 26px;
 }
 
 .discription_block {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    align-items: center;
-    text-align: center;
+    padding: 0 26px;
+    /* align-items: center; */
+    /* text-align: start; */
     padding: 50px;
 }
 
-p {
+.discription_block p {
     text-align: justify;
     font-family: 'Merriweather', serif;
     padding: 26px;
@@ -30,7 +36,8 @@ img {
     border-radius: 16px;
 }
 
-button {
+.discription_block button {
+    margin-left: 26px;
     padding: 16px;
     width: 150px;
     border-radius: 16px;

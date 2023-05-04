@@ -1,4 +1,5 @@
 import React from "react";
+import logo from "./media/Logo.png";
 import style from "./index.module.css";
 
 export default function NavMenu() {
@@ -6,8 +7,7 @@ export default function NavMenu() {
     <header className={style.header}>
       <nav className={["wrapper", style.nav_menu].join(" ")}>
         <div>
-          <h1>Software</h1>
-          <h3>Developer</h3>
+          <img src={logo} alt="logo" />
         </div>
         <ul className={style.block_menu}>
           <a href="#">

@@ -3,6 +3,8 @@ import NavMenu from './components/NavMenu';
 import AboutMe from './components/AboutMe';
 import WelcomeBanner from './components/WelcomeBanner';
 import MySkills from './components/MySkills';
+import MyProjects from './components/MyProjects';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
       <WelcomeBanner/>
       <AboutMe/>
       <MySkills/>
+      <MyProjects/>
+      <Footer/>
     </div>
   );
 }

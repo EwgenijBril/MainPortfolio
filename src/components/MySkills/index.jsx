@@ -1,18 +1,9 @@
 import React from "react";
-import html5 from "./media/html5.svg";
-import css3 from "./media/css3.svg";
-import js from "./media/js.svg";
-import react from "./media/react.svg";
-import bootstrap from "./media/bootstrap.svg";
-import git from "./media/git.svg";
-import mySQL from "./media/mySQL.svg";
-import mongodb from "./media/mongodb.svg";
-// import typescript from "./media/typescript.svg";
 import style from "./index.module.css";
 
 export default function MySkills() {
   return (
-    <section>
+    <section className={style.block_my_skills}>
       <div className={["wrapper", style.my_skills].join(" ")}>
         <div>
           <h1>Skills</h1>
@@ -33,40 +24,73 @@ export default function MySkills() {
         </div>
         <div className={style.block_pictures}>
           <div>
-            <img src={html5} alt="html5" />
+            <img
+              src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg"
+              alt="html5"
+            />
             <p>HTML5</p>
           </div>
           <div>
-            <img src={css3} alt="css3" />
+            <img
+              src="https://www.vectorlogo.zone/logos/w3_css/w3_css-icon.svg"
+              alt="css3"
+            />
             <p>CSS3</p>
           </div>
           <div>
-            <img src={js} alt="js" />
+            <img
+              src="https://www.vectorlogo.zone/logos/javascript/javascript-icon.svg"
+              alt="js"
+            />
             <p>JS</p>
           </div>
           <div>
-            <img src={react} alt="react" />
+            <img
+              src="https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg"
+              alt="react"
+            />
             <p>REACT</p>
           </div>
           <div>
-            <img src={bootstrap} alt="bootstrap" />
+            <img
+              src="https://www.vectorlogo.zone/logos/getbootstrap/getbootstrap-icon.svg"
+              alt="bootstrap"
+            />
             <p>BOOTSTRAP</p>
           </div>
           <div>
-            <img src={git} alt="git" />
+            <img
+              src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg"
+              alt="git"
+            />
             <p>GIT</p>
           </div>
           <div>
-            <img src={mySQL} alt="mySQL" />
+            <img
+              src="https://www.vectorlogo.zone/logos/mysql/mysql-icon.svg"
+              alt="mySQL"
+            />
             <p>MySQL</p>
           </div>
           <div>
-            <img src={mongodb} alt="mongodb" />
+            <img
+              src="https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg"
+              alt="mongodb"
+            />
             <p>MONGODB</p>
           </div>
         </div>
-        <div>
-          <h1>Learing:</h1>
+        <div className={style.block_learing}>
+          <div>
+            <h1>Learing:</h1>
+          </div>
+          <div>
+            <img
+              src="https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-icon.svg"
+              alt="TS"
+            />
+            <p>TypeScript</p>
+          </div>
         </div>
       </div>
     </section>

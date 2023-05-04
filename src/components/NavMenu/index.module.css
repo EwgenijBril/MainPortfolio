@@ -1,12 +1,10 @@
 .header {
     background-color: #4d4d4d;
-    /* background-color: #5e5373; */
     width: 100%;
     top: 0;
 
     position: fixed; 
 }
-
 
 .nav_menu {
     display: flex;
@@ -16,6 +14,11 @@
     color: white;
     font-size: 24px;
     font-family: 'Merriweather', serif;
+}
+
+.nav_menu  img {
+    width: 50%;
+    object-fit: cover;
 }
     
 .block_menu {

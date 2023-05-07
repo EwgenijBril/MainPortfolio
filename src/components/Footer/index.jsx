@@ -23,19 +23,19 @@ export default function Footer() {
 
           <div>
             <h4>aktiv</h4>
-            <div className={style.git_hub}>
-              <img
-                src="https://www.vectorlogo.zone/logos/github/github-icon.svg"
-                alt="GitHub"
-              />
-              <p>GitHub</p>
-            </div>
             <div className={style.linkenin}>
               <img
                 src="https://www.vectorlogo.zone/logos/linkedin/linkedin-icon.svg"
                 alt="linkedin"
               />
               <p>LinkenIn</p>
+            </div>
+            <div className={style.git_hub}>
+              <img
+                src="https://www.vectorlogo.zone/logos/github/github-icon.svg"
+                alt="GitHub"
+              />
+              <p>GitHub</p>
             </div>
           </div>
         </div>

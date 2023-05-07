@@ -6,7 +6,7 @@
 .information_block {
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    padding-top: 20px ;
 }
 
 .logo img {
@@ -24,26 +24,26 @@
 
 .git_hub {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;  
     color: white;
     background-image: white;
 }
 
 .git_hub img {
-    width: 30%;
-    margin: 8px;
+    width: 50%;
+    margin: 0 8px 8px 0;
 }
 
 .linkenin {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
 }
 
 .linkenin img {
-    width: 30%;
-    margin: 8px;
+    width: 50%;
+    margin: 0 8px 8px 0;
 }
 
 .footer_block h3 {

@@ -1,4 +1,5 @@
 import React from "react";
+import next from "./media/NextJS.png";
 import style from "./index.module.css";
 
 export default function MySkills() {
@@ -84,12 +85,18 @@ export default function MySkills() {
           <div>
             <h1>Learing:</h1>
           </div>
-          <div>
-            <img
-              src="https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-icon.svg"
-              alt="TS"
-            />
-            <p>TypeScript</p>
+          <div className={style.block_TS_NextJS}>
+            <div>
+              <img
+                src="https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-icon.svg"
+                alt="TS"
+              />
+              <p>TypeScript</p>
+            </div>
+            <div>
+              <img src={next} alt="NextJS" />
+              <p>NEXT.js</p>
+            </div>
           </div>
         </div>
       </div>

@@ -12,8 +12,8 @@ export default function WelcomeBanner() {
           <p>A junior frontend developer</p>
         </div>
         <div>
-          <h1>I'm creating and building</h1>
-          <h1 className={style.text}>website with code</h1>
+          <h1>I'm create and build</h1>
+          <h1 className={style.text}> responsive websites </h1>
         </div>
       </div>
     </section>

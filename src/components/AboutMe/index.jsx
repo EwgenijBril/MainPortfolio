@@ -9,19 +9,18 @@ export default function AboutMe() {
         <div className={style.discription_block}>
           <h1>Get to know me</h1>
           <p>
-            Recent bachelor's degree with a background in web design and
-            development. Moringa school web developer certification. Motivated,
-            responsible and hardworking ready to advance in the field of
-            Information Technology majoring in Full Stack Development and
-            Networking. I have a strong drive to see things to competition and
-            learn more in my technical Skill since the world of technology keeps
-            on changing every time. I have excellent Computer Skills in all the
-            Computer packages. A creative copywriter with knowledge of SEO best
-            practices and keyword optimization. Well organized research skills
-            to craft unique and valuable content for a wide variety of target
-            audiences. I am looking forward to develop my next project with the
-            wonderful team. I believe the knowledge gained will help me achieve
-            great in my software engineering path.
+            After moving to Germany, I decided to pivot my career towards
+            frontend development and pursue further education in this field. I
+            completed a 2-month orientation course followed by a 7-month
+            professional course, culminating in a final project where I applied
+            my skills in HTML5, CSS3, JavaScript, and React.
+            <br />
+            Currently, I am learning Typescript through Udemy courses and am
+            eager to expand my knowledge by learning the Next.js framework. I am
+            actively seeking employment and believe that my experience creating
+            adaptive websites and working effectively in teams will be a
+            valuable asset to any company. I am excited to contribute to a new
+            team's success.
           </p>
           <button>Download CV</button>
         </div>

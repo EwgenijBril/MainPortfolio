@@ -10,13 +10,13 @@ export default function NavMenu() {
           <img src={logo} alt="logo" />
         </div>
         <ul className={style.block_menu}>
-          <a href="#">
+          <a href="#about">
             <li>About</li>
           </a>
-          <a href="#">
+          <a href="#skills">
             <li>Skill</li>
           </a>
-          <a href="#">
+          <a href="#project">
             <li>Project</li>
           </a>
           <a href="#">

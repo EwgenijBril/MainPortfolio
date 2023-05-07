@@ -29,6 +29,8 @@
 
 .block_menu a {
     text-decoration: none;
+    scroll-behavior: smooth;
+    
 }
 
 .block_menu li {

@@ -24,18 +24,25 @@ export default function Footer() {
           <div>
             <h4>aktiv</h4>
             <div className={style.linkenin}>
-              <img
-                src="https://www.vectorlogo.zone/logos/linkedin/linkedin-icon.svg"
-                alt="linkedin"
-              />
-              <p>LinkenIn</p>
+              <a
+                href="https://www.linkedin.com/in/ewgenij-bril/"
+                target="_blank"
+              >
+                <img
+                  src="https://www.vectorlogo.zone/logos/linkedin/linkedin-icon.svg"
+                  alt="linkedin"
+                />
+                <p>LinkenIn</p>
+              </a>
             </div>
             <div className={style.git_hub}>
-              <img
-                src="https://www.vectorlogo.zone/logos/github/github-icon.svg"
-                alt="GitHub"
-              />
-              <p>GitHub</p>
+              <a href="https://github.com/EwgenijBril" target="_blank">
+                <img
+                  src="https://www.vectorlogo.zone/logos/github/github-icon.svg"
+                  alt="GitHub"
+                />
+                <p>GitHub</p>
+              </a>
             </div>
           </div>
         </div>

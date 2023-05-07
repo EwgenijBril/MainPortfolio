@@ -4,7 +4,7 @@ import style from "./index.module.css";
 
 export default function MySkills() {
   return (
-    <section className={style.block_my_skills}>
+    <section className={style.block_my_skills} id="skills">
       <div className={["wrapper", style.my_skills].join(" ")}>
         <div>
           <h1>Skills</h1>

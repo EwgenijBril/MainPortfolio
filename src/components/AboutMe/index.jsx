@@ -4,7 +4,7 @@ import Foto from "./media/foto1.jpg";
 
 export default function AboutMe() {
   return (
-    <section className={style.block_about_me}>
+    <section className={style.block_about_me} id="about">
       <div className={["wrapper", style.about_me].join(" ")}>
         <div className={style.discription_block}>
           <h1>Get to know me</h1>

@@ -22,26 +22,32 @@
     
 }
 
-.git_hub {
+.linkenin a {
     display: flex;
     justify-content: space-between;
-    align-items: center;  
+    align-items: center;
     color: white;
-    background-image: white;
+    text-decoration: none;
+    
 }
 
-.git_hub img {
+.linkenin img {
     width: 50%;
     margin: 0 8px 8px 0;
 }
 
-.linkenin {
+.git_hub a {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-evenly;
+    align-items: center;  
+
+    color: white;
+    background-image: white;
+
+    text-decoration: none;
 }
 
-.linkenin img {
+.git_hub img {
     width: 50%;
     margin: 0 8px 8px 0;
 }

@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import style from "./index.module.css";
+import TypeWriter from "typewriter-effect";
 
 export default function WelcomeBanner() {
+  // const message = ["responsive websites"];
+
   return (
     <section>
       <div className={["wrapper", style.block_banner].join(" ")}>
@@ -13,7 +16,15 @@ export default function WelcomeBanner() {
         </div>
         <div>
           <h1>I'm create and build</h1>
-          <h1 className={style.text}> responsive websites </h1>
+          <div className={style.text}>
+            <TypeWriter
+              onInit={(typewriter) => {
+                typewriter.typeString("responsive websites").start();
+              }}
+            />
+          </div>
+
+          <h1></h1>
         </div>
       </div>
     </section>

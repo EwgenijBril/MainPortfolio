@@ -86,7 +86,7 @@ export default function MySkills() {
             <h1>Learing:</h1>
           </div>
           <div className={style.block_TS_NextJS}>
-            <div>
+            <div className={style.next}>
               <img
                 src="https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-icon.svg"
                 alt="TS"

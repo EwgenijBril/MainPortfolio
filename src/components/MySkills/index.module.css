@@ -33,6 +33,7 @@
 .block_pictures img {
     width: 100px;
     margin: 5px;
+    /* align-items: center; */
 }
 
 .block_pictures p {
@@ -49,17 +50,23 @@
     
 }
 
-
 .block_learing img {
     height: 100px;
-    width: 100px;
-    margin: 5px;
-  
+    width: 100px; 
 }
 
 .block_TS_NextJS {
     display: flex;
+    gap: 220px;
+    margin-top: 26px;
     margin-left: 100px;
+}
+
+.next {
+    display: flex;
+    flex-direction: column;
+    
+    
 }
 
 .block_learing p {

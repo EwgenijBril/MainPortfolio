@@ -1,9 +1,31 @@
-import React, { useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import style from "./index.module.css";
-import TypeWriter from "typewriter-effect";
 
 export default function WelcomeBanner() {
-  // const message = ["responsive websites"];
+  const useTypingEffect = (textToType, interKeyStokeDurationInMs) => {
+    const [currentPosition, setCurrentPosition] = useState(0);
+    const currentPositionRef = useRef(0);
+
+    useEffect(() => {
+      const inervalId = setInterval(() => {
+        console.log("interval");
+        setCurrentPosition((value) => value + 1);
+        currentPositionRef.current += 1;
+        if (currentPositionRef.current > textToType.length) {
+          clearInterval(inervalId);
+        }
+      }, interKeyStokeDurationInMs);
+      return () => {
+        clearInterval(inervalId);
+        currentPositionRef.current = 0;
+        setCurrentPosition(0);
+      };
+    }, [interKeyStokeDurationInMs, textToType]);
+
+    return textToType.substring(0, currentPosition);
+  };
+
+  const text = useTypingEffect("responsive websites", 200);
 
   return (
     <section>
@@ -16,14 +38,7 @@ export default function WelcomeBanner() {
         </div>
         <div>
           <h1>I'm create and build</h1>
-          <div className={style.text}>
-            <TypeWriter
-              onInit={(typewriter) => {
-                typewriter.typeString("responsive websites").start();
-              }}
-            />
-          </div>
-
+          <h1 className={style.text}>{text}</h1>
           <h1></h1>
         </div>
       </div>

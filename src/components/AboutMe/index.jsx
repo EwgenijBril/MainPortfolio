@@ -22,11 +22,8 @@ export default function AboutMe() {
             valuable asset to any company. I am excited to contribute to a new
             team's success.
           </p>
-          <a
-            href="https://drive.google.com/file/d/17xrhoGCoU2lgehC7WeLVZc6SnHeroT1I/view?usp=share_link"
-            target="blank"
-          >
-            Resume
+          <a download="My SV" href="Lebenslauf.pdf">
+            Download my CV
           </a>
         </div>
         <img src={Foto} alt="foto" />

@@ -7,15 +7,17 @@ export default function WelcomeBanner() {
     const currentPositionRef = useRef(0);
 
     useEffect(() => {
-      const inervalId = setInterval(() => {
+      const intervalId = setInterval(() => {
+        console.log(intervalId);
         setCurrentPosition((value) => value + 1);
+        setCurrentPosition(textToType.sla);
         currentPositionRef.current += 1;
         if (currentPositionRef.current > textToType.length) {
-          clearInterval(inervalId);
+          clearInterval(intervalId);
         }
       }, interKeyStokeDurationInMs);
       return () => {
-        clearInterval(inervalId);
+        clearInterval(intervalId);
         currentPositionRef.current = 0;
         setCurrentPosition(0);
       };

@@ -1,32 +1,16 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useState } from "react";
 import style from "./index.module.css";
 
 export default function WelcomeBanner() {
-  const useTypingEffect = (textToType, interKeyStokeDurationInMs) => {
-    const [currentPosition, setCurrentPosition] = useState(0);
-    const currentPositionRef = useRef(0);
+  const [text, setText] = useState("");
+  const myText = "responsive websites";
 
-    useEffect(() => {
-      const intervalId = setInterval(() => {
-        console.log(intervalId);
-        setCurrentPosition((value) => value + 1);
-        setCurrentPosition(textToType.sla);
-        currentPositionRef.current += 1;
-        if (currentPositionRef.current > textToType.length) {
-          clearInterval(intervalId);
-        }
-      }, interKeyStokeDurationInMs);
-      return () => {
-        clearInterval(intervalId);
-        currentPositionRef.current = 0;
-        setCurrentPosition(0);
-      };
-    }, [interKeyStokeDurationInMs, textToType]);
-
-    return textToType.substring(0, currentPosition);
-  };
-
-  const text = useTypingEffect("responsive websites", 300);
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      setText(myText.slice(0, text.length + 1));
+    }, 300);
+    return () => clearTimeout(timeout);
+  }, [text]);
 
   return (
     <section>
@@ -39,8 +23,11 @@ export default function WelcomeBanner() {
         </div>
         <div>
           <h1>I create and build</h1>
-          <h1 className={style.text}>{text}</h1>
-          <h1></h1>
+          {text ? (
+            <h1 className={style.text}>{text}</h1>
+          ) : (
+            <h1 className={style.text}>{myText}</h1>
+          )}
         </div>
       </div>
     </section>

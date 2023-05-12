@@ -8,7 +8,6 @@ export default function WelcomeBanner() {
 
     useEffect(() => {
       const inervalId = setInterval(() => {
-        console.log("interval");
         setCurrentPosition((value) => value + 1);
         currentPositionRef.current += 1;
         if (currentPositionRef.current > textToType.length) {
@@ -25,7 +24,7 @@ export default function WelcomeBanner() {
     return textToType.substring(0, currentPosition);
   };
 
-  const text = useTypingEffect("responsive websites", 200);
+  const text = useTypingEffect("responsive websites", 300);
 
   return (
     <section>
@@ -37,7 +36,7 @@ export default function WelcomeBanner() {
           <p>A junior frontend developer</p>
         </div>
         <div>
-          <h1>I'm create and build</h1>
+          <h1>I create and build</h1>
           <h1 className={style.text}>{text}</h1>
           <h1></h1>
         </div>

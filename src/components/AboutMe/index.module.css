@@ -30,7 +30,7 @@ img {
     border-radius: 16px;
 }
 
-.discription_block button {
+.discription_block a {
     width: 150px;
     margin: 12px 0;
     padding: 20px;
@@ -39,10 +39,14 @@ img {
     background: linear-gradient(to right,#ff760D, rgb(253, 61, 61));
     color: white;
     border: none;
+    text-decoration: none;
+
+    text-align: center;
 
     transition: transform 0.5s;  
 }
 
-.discription_block button:hover {
+.discription_block a:hover {
     transform: scale(1.1);
+    background: #4d4d4d;
 }

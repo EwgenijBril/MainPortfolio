@@ -22,7 +22,12 @@ export default function AboutMe() {
             valuable asset to any company. I am excited to contribute to a new
             team's success.
           </p>
-          <button>Download CV</button>
+          <a
+            href="https://drive.google.com/file/d/17xrhoGCoU2lgehC7WeLVZc6SnHeroT1I/view?usp=share_link"
+            target="blank"
+          >
+            Resume
+          </a>
         </div>
         <img src={Foto} alt="foto" />
       </div>

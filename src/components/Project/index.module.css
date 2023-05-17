@@ -1,0 +1,34 @@
+.project {
+    color: black;
+    
+}
+
+.project h2 {
+    padding: 16px;
+    box-shadow: rgba(0, 0, 0, 0.75);
+}
+
+.info_block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info_block img {
+    margin: 26px;
+    transition: transform 0.2s;
+}
+
+.info_block img:hover {
+    transform: scale(1.2);
+}
+
+.discription {
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.info_block p {
+   text-align: justify; 
+   padding: 16px;
+}
+

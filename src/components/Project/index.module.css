@@ -5,12 +5,7 @@
 
 .project h2 {
     padding: 16px;
-    box-shadow: rgba(0, 0, 0, 0.75);
-}
-
-.info_block {
-    display: flex;
-    justify-content: space-between;
+    /* box-shadow: rgba(0, 0, 0, 0.75); */
 }
 
 .info_block img {
@@ -22,13 +17,34 @@
     transform: scale(1.2);
 }
 
-.discription {
-    flex-direction: column;
-    justify-content: space-between;
-    
-}
 .info_block p {
    text-align: justify; 
    padding: 16px;
+}
+
+.btn {
+    width: 170px;
+    margin: 12px 0;
+    padding: 20px;
+    border-radius: 16px;
+
+    background: linear-gradient(to right,#ff760D, rgb(253, 61, 61));
+    color: white;
+    border: none;
+    text-decoration: none;
+
+    text-align: center;
+
+    transition: transform 0.5s;  
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    background: #4d4d4d;
 }
 

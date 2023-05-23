@@ -17,4 +17,3 @@ export default function Project({ id, title, image, discription, link }) {
     </div>
   );
 }
-// https://mygardenshop.onrender.com

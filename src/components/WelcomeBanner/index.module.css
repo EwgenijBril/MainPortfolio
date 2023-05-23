@@ -6,6 +6,7 @@
     justify-content: space-between;
     align-items: center;
     
+    
 }
 
 .block_banner p {
@@ -19,5 +20,6 @@
 
 .text {
     color: #ff760D;
+    text-shadow: 3px 4px rgba(0, 0, 0, 0.4);
 }
 

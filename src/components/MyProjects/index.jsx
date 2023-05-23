@@ -9,8 +9,15 @@ export default function MyProjects({ array_projects }) {
   return (
     <section className={style.section} id="project">
       <div className={["wrapper", style.my_projects].join(" ")}>
-        <h1>Here are my future projects</h1>
-        <button onClick={() => setModalActive(true)}>open</button>
+        <h1>My projects</h1>
+
+        <div
+          onClick={() => setModalActive(true)}
+          className={style.my_final_project}
+        >
+          <h3>My final project</h3>
+        </div>
+
         <Modal active={modalActive} setActive={setModalActive}>
           {array_projects.map((el) => (
             <Project key={el.id} {...el} />

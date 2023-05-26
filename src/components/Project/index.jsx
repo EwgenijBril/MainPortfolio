@@ -8,11 +8,9 @@ export default function Project({ id, title, image, discription, link }) {
       <div className={style.info_block}>
         <img src={image} alt={title} />
         <p>{discription}</p>
-        <button className={style.btn}>
-          <a href={link} target="blank">
-            Link
-          </a>
-        </button>
+        <a href={link} target="blank">
+          <button className={style.btn}>Link </button>
+        </a>
       </div>
     </div>
   );

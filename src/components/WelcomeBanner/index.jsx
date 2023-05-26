@@ -17,8 +17,14 @@ export default function WelcomeBanner() {
       <div className={["wrapper", style.block_banner].join(" ")}>
         <div>
           <p>Hey there!!</p>
-          <h1>I'm Ewgenij</h1>
-          <h1>Bril</h1>
+          <h1>
+            {" "}
+            <span>I'm Ewgenij</span>{" "}
+          </h1>
+          <h1>
+            {" "}
+            <span>Bril</span>
+          </h1>
           <p>A junior frontend developer</p>
         </div>
         <div>

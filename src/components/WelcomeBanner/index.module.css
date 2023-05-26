@@ -16,10 +16,15 @@
 
 .block_banner h1 {
     font-size: 50px;
+    
+}
+
+span {
+    text-shadow: 3px 4px rgba(0, 0, 0, 0.4);
 }
 
 .text {
     color: #ff760D;
-    text-shadow: 3px 4px rgba(0, 0, 0, 0.4);
+    /* text-shadow: 3px 4px rgba(0, 0, 0, 0.4); */
 }
 

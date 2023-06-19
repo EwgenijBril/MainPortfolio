@@ -3,8 +3,8 @@
     width: 100%;
 
     transition: 0.5s ;
-    backdrop-filter: blur(2px);
-    background-color: rgba(0, 0, 0, 0.1);
+    /* backdrop-filter: blur(2px); */
+    background-color: rgba(0, 0, 0, 0.5);
     position: fixed;
 
     top: 0;

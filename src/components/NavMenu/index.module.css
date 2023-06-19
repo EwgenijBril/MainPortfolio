@@ -47,3 +47,53 @@
     
 }
 
+.message textarea {
+    border: 0;
+    padding: 15px;
+    border-radius: 5px;
+    background: #f4f4f4;
+
+    height: 100%;
+    width: 100%;
+
+    resize: none;
+    outline: none;
+}
+
+.info {
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+   
+}
+
+.info input {
+    border-radius: 5px;
+    border: 0;
+    background: #f4f4f4;
+    padding: 16px;
+    outline: none;
+}
+
+.info button {
+    width: 170px;
+    margin: 12px 0;
+    padding: 20px;
+    border-radius: 16px;
+
+    background: linear-gradient(to right,#ff760D, rgb(253, 61, 61));
+    color: white;
+    border: none;
+    text-decoration: none;
+
+    text-align: center;
+
+    transition: transform 0.5s;  
+}
+
+.info button:hover {
+    transform: scale(1.1);
+    background: #4d4d4d;
+}
+

@@ -15,6 +15,7 @@ export default function AboutMe() {
             professional course, culminating in a final project where I applied
             my skills in HTML5, CSS3, JavaScript, and React.
             <br />
+            <br />
             Currently, I am learning Typescript through Udemy courses and am
             eager to expand my knowledge by learning the Next.js framework. I am
             actively seeking employment and believe that my experience creating

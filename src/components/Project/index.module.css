@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
     color: black; 
 }
 
@@ -13,12 +12,14 @@
 .info_block {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     align-items: center;
 }
 
 .info_block img {
     margin: 26px;
     transition: transform 0.2s;
+    object-fit: contain;
 }
 
 .info_block img:hover {
@@ -36,7 +37,7 @@
 
 .btn {
     width: 170px;
-    margin: 12px 0;
+    margin: 12px 10px;
     padding: 20px;
     border-radius: 16px;
 
@@ -47,7 +48,6 @@
 
     text-align: center;
     
-
     transition: transform 0.5s;  
 }
 

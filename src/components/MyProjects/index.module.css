@@ -2,6 +2,7 @@
     background-color: #4d4d4d;
     color: white;
 }
+
 .my_projects {
     display: flex;
     flex-direction: column;
@@ -32,7 +33,6 @@
 
 .my_final_project:hover {
     transform: scale(1.2);
-    color: #ff760D  ;
-    
+    color: #ff760D;
 }
 

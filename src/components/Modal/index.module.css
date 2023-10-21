@@ -1,9 +1,8 @@
 .modal {
-    height: 100%;
-    width: 100%;
+    width: auto;
+    height: 100vh;
 
     transition: 0.5s ;
-    /* backdrop-filter: blur(2px); */
     background-color: rgba(0, 0, 0, 0.5);
     position: fixed;
 
@@ -16,6 +15,9 @@
 
     opacity: 0;
     pointer-events: none;
+
+    overflow: hidden;
+    
 }
 
 .modal.active {
@@ -23,21 +25,26 @@
     pointer-events: all;
 }
 
-
 .content {
     padding: 20px;
     border-radius: 16px;
     background-color: white;
-
+    
     transform: scale(0.5);
     transition: 0.4s all;
 
     width: 50%;
+    overflow-y: auto; 
+    max-height: 70vh;
 }
 
 .content.active {
     box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.75);
     transform: scale(1);
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 

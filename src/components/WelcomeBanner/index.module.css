@@ -28,3 +28,12 @@ span {
     /* text-shadow: 3px 4px rgba(0, 0, 0, 0.4); */
 }
 
+@media not all and (min-width: 640px)  {
+    .block_banner {
+        flex-direction: column;
+        text-align: center;
+        margin-top: -0.5vh;
+        padding: 4vh;
+    }
+}
+

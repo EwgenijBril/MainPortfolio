@@ -36,3 +36,9 @@
     color: #ff760D;
 }
 
+@media not all and (min-width: 640px) {
+    .my_projects {
+        padding: 100px ;  
+    }
+}
+

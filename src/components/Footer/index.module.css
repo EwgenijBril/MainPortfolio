@@ -57,3 +57,43 @@
     text-align: center;
     
 }
+
+@media not all and (min-width: 640px) {
+    .information_block {
+       flex-direction: column-reverse;
+        padding-top: 20px ;
+    }
+
+    .linkenin img {
+        width: 50px;
+        margin: 6px 6px 6px 0;
+       
+    }
+
+    .linkenin  {
+        display: flex;  
+    }
+
+    .git_hub img {
+        width: 50px;
+        margin: 6px 6px 6px 0;
+        
+    }
+
+    .git_hub {
+        display: flex;  
+    }
+
+    .footer_block h4 {
+        padding: 30px 0 10px;
+        
+    }
+
+    .logo img {
+       display: none;
+    }
+
+    .address {
+        padding: 20px 0 0 0;
+    }
+}

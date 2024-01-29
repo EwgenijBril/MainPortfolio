@@ -9,8 +9,10 @@ export default function Footer() {
         <div className={style.information_block}>
           <div className={style.logo}>
             <img src={logo} alt="logo" />
-            <p>Marktplatz</p>
-            <p>72250 Freudenstadt</p>
+            <div className={style.address}>
+              <p>Marktplatz</p>
+              <p>72250 Freudenstadt</p>
+            </div>
             <br />
             <p className={style.mail}>ewgenijbril425@gmail.com</p>
           </div>
@@ -27,6 +29,7 @@ export default function Footer() {
               <a
                 href="https://www.linkedin.com/in/ewgenij-bril/"
                 target="_blank"
+                rel="noreferrer"
               >
                 <img
                   src="https://www.vectorlogo.zone/logos/linkedin/linkedin-icon.svg"
@@ -36,7 +39,11 @@ export default function Footer() {
               </a>
             </div>
             <div className={style.git_hub}>
-              <a href="https://github.com/EwgenijBril" target="_blank">
+              <a
+                href="https://github.com/EwgenijBril"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <img
                   src="https://www.vectorlogo.zone/logos/github/github-icon.svg"
                   alt="GitHub"

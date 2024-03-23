@@ -1,44 +1,41 @@
 .section {
-    background-color: #4d4d4d;
-    color: white;
+	background-color: #4d4d4d;
+	color: white;
 }
 
 .my_projects {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 56px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 56px;
 
-    padding: 150px ;  
+	padding: 150px;
 }
 
 .my_final_project {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 
-    width: 200px;
-    height: 150px;
+	width: 200px;
+	height: 150px;
 
-    background-color: white;
-    color: #4d4d4d;
-    border-radius: 10px;
+	background-color: white;
+	color: #4d4d4d;
+	border-radius: 10px;
 
-    cursor: pointer;
-    transition: transform 0.5s;
-    box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.75);
-
-    
+	cursor: pointer;
+	transition: transform 0.5s;
+	box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.75);
 }
 
 .my_final_project:hover {
-    transform: scale(1.2);
-    color: #ff760D;
+	transform: scale(1.2);
+	color: #ff760d;
 }
 
 @media not all and (min-width: 640px) {
-    .my_projects {
-        padding: 100px ;  
-    }
+	.my_projects {
+		padding: 100px;
+	}
 }
-

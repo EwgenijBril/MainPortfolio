@@ -1,99 +1,93 @@
 .section {
-    background-color: #333333;
-    color: white;
+	background-color: #333333;
+	color: white;
 }
 
 .information_block {
-    display: flex;
-    justify-content: space-around;
-    padding-top: 20px ;
+	display: flex;
+	justify-content: space-around;
+	padding-top: 20px;
 }
 
 .logo img {
-    width: 50%;
+	width: 50%;
 }
 
 .mail {
-    color: #ff760D;
+	color: #ff760d;
 }
 
 .footer_block h4 {
-    padding: 20px 0;
-    
+	padding: 20px 0;
 }
 
 .linkenin a {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: white;
-    text-decoration: none;
-    
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: white;
+	text-decoration: none;
 }
 
 .linkenin img {
-    width: 50%;
-    margin: 0 8px 8px 0;
+	width: 50%;
+	margin: 0 8px 8px 0;
 }
 
 .git_hub a {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;  
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
 
-    color: white;
-    background-image: white;
+	color: white;
+	background-image: white;
 
-    text-decoration: none;
+	text-decoration: none;
 }
 
 .git_hub img {
-    width: 50%;
-    margin: 0 8px 8px 0;
+	width: 50%;
+	margin: 0 8px 8px 0;
 }
 
 .footer_block h3 {
-    padding: 20px 0;
-    text-align: center;
-    
+	padding: 20px 0;
+	text-align: center;
 }
 
 @media not all and (min-width: 640px) {
-    .information_block {
-       flex-direction: column-reverse;
-        padding-top: 20px ;
-    }
+	.information_block {
+		flex-direction: column-reverse;
+		padding-top: 20px;
+	}
 
-    .linkenin img {
-        width: 50px;
-        margin: 6px 6px 6px 0;
-       
-    }
+	.linkenin img {
+		width: 50px;
+		margin: 6px 6px 6px 0;
+	}
 
-    .linkenin  {
-        display: flex;  
-    }
+	.linkenin {
+		display: flex;
+	}
 
-    .git_hub img {
-        width: 50px;
-        margin: 6px 6px 6px 0;
-        
-    }
+	.git_hub img {
+		width: 50px;
+		margin: 6px 6px 6px 0;
+	}
 
-    .git_hub {
-        display: flex;  
-    }
+	.git_hub {
+		display: flex;
+	}
 
-    .footer_block h4 {
-        padding: 30px 0 10px;
-        
-    }
+	.footer_block h4 {
+		padding: 30px 0 10px;
+	}
 
-    .logo img {
-       display: none;
-    }
+	.logo img {
+		display: none;
+	}
 
-    .address {
-        padding: 20px 0 0 0;
-    }
+	.address {
+		padding: 20px 0 0 0;
+	}
 }

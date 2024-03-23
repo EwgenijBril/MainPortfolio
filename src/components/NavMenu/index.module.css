@@ -1,99 +1,96 @@
 .header {
-    background-color: #4d4d4d;
-    width: 100%;
-    top: 0;
+	background-color: #4d4d4d;
+	width: 100%;
+	top: 0;
 
-    position: sticky; 
+	position: sticky;
 }
 
 .nav_menu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 
-    color: white;
-    font-size: 24px;
-    font-family: 'Merriweather', serif;
+	color: white;
+	font-size: 24px;
+	font-family: "Merriweather", serif;
 }
 
-.nav_menu  img {
-    margin: 8px 0 0 0;
-    width: 65%;
-    object-fit: cover;
+.nav_menu img {
+	margin: 8px 0 0 0;
+	width: 65%;
+	object-fit: cover;
 }
-    
+
 .block_menu {
-    display: flex;
-    list-style: none; 
+	display: flex;
+	list-style: none;
 }
 
 .block_menu a {
-    text-decoration: none;
-    scroll-behavior: smooth;
-    
+	text-decoration: none;
+	scroll-behavior: smooth;
 }
 
 .block_menu li {
-    padding: 20px 0 20px 100px;
-    font-size: 16px;
-    color: white; 
-    transition: color 0.2s, transform 0.1s;
-    
+	padding: 20px 0 20px 100px;
+	font-size: 16px;
+	color: white;
+	transition:
+		color 0.2s,
+		transform 0.1s;
 }
 
 .block_menu li:hover {
-    color: #ff760D ;
-    transform: scale(1.1);
-    
+	color: #ff760d;
+	transform: scale(1.1);
 }
 
 .message textarea {
-    border: 0;
-    padding: 15px;
-    border-radius: 5px;
-    background: #f4f4f4;
+	border: 0;
+	padding: 15px;
+	border-radius: 5px;
+	background: #f4f4f4;
 
-    height: 100%;
-    width: 100%;
+	height: 100%;
+	width: 100%;
 
-    resize: none;
-    outline: none;
+	resize: none;
+	outline: none;
 }
 
 .info {
-    outline: none;
-    display: flex;
-    flex-direction: column;
-    gap: 36px;
-   
+	outline: none;
+	display: flex;
+	flex-direction: column;
+	gap: 36px;
 }
 
 .info input {
-    border-radius: 5px;
-    border: 0;
-    background: #f4f4f4;
-    padding: 16px;
-    outline: none;
+	border-radius: 5px;
+	border: 0;
+	background: #f4f4f4;
+	padding: 16px;
+	outline: none;
 }
 
 .info button {
-    width: 170px;
-    margin: 12px 0;
-    padding: 20px;
-    border-radius: 16px;
+	width: 170px;
+	margin: 12px 0;
+	padding: 20px;
+	border-radius: 16px;
 
-    background: linear-gradient(to right,#ff760D, rgb(253, 61, 61));
-    color: white;
-    border: none;
-    text-decoration: none;
+	background: linear-gradient(to right, #ff760d, rgb(253, 61, 61));
+	color: white;
+	border: none;
+	text-decoration: none;
 
-    text-align: center;
+	text-align: center;
 
-    transition: transform 0.5s;  
+	transition: transform 0.5s;
 }
 
 .info button:hover {
-    transform: scale(1.1);
-    background: #4d4d4d;
+	transform: scale(1.1);
+	background: #4d4d4d;
 }
-

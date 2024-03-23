@@ -23,7 +23,7 @@ export default function AboutMe() {
             valuable asset to any company. I am excited to contribute to a new
             team's success.
           </p>
-          <a download="My SV" href="Lebenslauf.pdf">
+          <a download="My SV" href="CV.pdf">
             Download my CV
           </a>
         </div>

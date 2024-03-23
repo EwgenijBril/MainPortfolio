@@ -46,7 +46,7 @@
 .block_learing {
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: flex-start;
     
 }
 
@@ -88,7 +88,7 @@
 
     .block_TS_NextJS {
         display: flex;
-        gap: 90px;
+        gap: 84px;
         margin-top: 0;
         margin-left: 60px;
     }

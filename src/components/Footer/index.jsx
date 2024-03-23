@@ -53,7 +53,7 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <h3>Created with by Bril.</h3>
+        <h3>Web studio Bril.</h3>
       </div>
     </section>
   );

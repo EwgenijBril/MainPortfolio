@@ -1,12 +1,14 @@
 .header {
-	background-color: #4d4d4d;
-	width: 100%;
-	top: 0;
-
 	position: sticky;
+	top: 0;
+	width: 100%;
+	box-shadow:
+		0 0.125rem 0.25rem rgb(0 0 0 / 8%),
+		0 0.5rem 0.75rem rgb(0 0 0 / 4%);
+	background-color: #4d4d4d;
 }
 
-.nav_menu {
+.menu {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -16,7 +18,7 @@
 	font-family: "Merriweather", serif;
 }
 
-.nav_menu img {
+.logo_menu img {
 	margin: 8px 0 0 0;
 	width: 65%;
 	object-fit: cover;
@@ -44,4 +46,62 @@
 .block_menu li:hover {
 	color: #ff760d;
 	transform: scale(1.1);
+}
+
+.menu_button {
+	display: none;
+}
+
+@media not all and (min-width: 768px) {
+	.logo_menu {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		gap: 8rem;
+		z-index: 2;
+	}
+
+	.nav_menu {
+		position: fixed;
+		top: 124px;
+		left: 4px;
+		border-right: solid 4px white;
+		display: flex;
+		flex-direction: column;
+		width: 99%;
+		height: 100%;
+		background-color: #4d4d4d;
+		transform: 0.3s linear;
+
+		transform: translateX(-100%);
+	}
+
+	.logo_menu img {
+		margin: 1rem;
+		width: 35%;
+	}
+
+	.active {
+		transform: translateX(0);
+		transition: all 0.5s;
+	}
+
+	.block_menu {
+		flex: 1;
+		display: flex;
+		flex-direction: column;
+		align-self: start;
+		font-size: 3rem;
+		padding-top: 6rem;
+	}
+
+	.block_menu li {
+		font-size: 3rem;
+	}
+
+	.menu_button {
+		display: flex;
+		font-size: 3rem;
+		color: white;
+	}
 }

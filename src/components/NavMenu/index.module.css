@@ -20,7 +20,7 @@
 
 .logo_menu img {
 	margin: 8px 0 0 0;
-	width: 65%;
+	width: 45%;
 	object-fit: cover;
 }
 
@@ -63,7 +63,7 @@
 
 	.nav_menu {
 		position: fixed;
-		top: 124px;
+		top: 0;
 		left: 4px;
 		border-right: solid 4px white;
 		display: flex;
@@ -84,6 +84,7 @@
 	.active {
 		transform: translateX(0);
 		transition: all 0.5s;
+		transform: 0.3s linear;
 	}
 
 	.block_menu {
@@ -92,7 +93,7 @@
 		flex-direction: column;
 		align-self: start;
 		font-size: 3rem;
-		padding-top: 6rem;
+		padding-top: 10rem;
 	}
 
 	.block_menu li {

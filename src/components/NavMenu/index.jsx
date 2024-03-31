@@ -13,6 +13,7 @@ export default function NavMenu() {
 	const closeMenu = () => {
 		setMenuActive(false);
 	};
+
 	return (
 		<header className={style.header}>
 			<div className={["wrapper", style.menu].join(" ")}>

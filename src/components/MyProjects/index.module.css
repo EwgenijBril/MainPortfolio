@@ -3,39 +3,28 @@
 	color: white;
 }
 
+.section h1 {
+	text-align: center;
+	padding-top: 3rem;
+	font-size: 3rem;
+}
+
 .my_projects {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	gap: 56px;
-
-	padding: 150px;
+	display: grid;
+	grid-template-columns: repeat( 3, 1fr );
+	gap: 2rem;
+	row-gap: 0.25rem;
 }
 
-.my_final_project {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-
-	width: 200px;
-	height: 150px;
-
-	background-color: white;
-	color: #4d4d4d;
-	border-radius: 10px;
-
-	cursor: pointer;
-	transition: transform 0.5s;
-	box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.75);
-}
-
-.my_final_project:hover {
-	transform: scale(1.2);
-	color: #ff760d;
+@media not all and (min-width: 1024px) {
+	.my_projects {
+		grid-template-columns: repeat(2, 1fr );
+	}
 }
 
 @media not all and (min-width: 640px) {
 	.my_projects {
-		padding: 100px;
+		grid-template-columns: repeat(1, 1fr );
+		justify-content: center;
 	}
 }

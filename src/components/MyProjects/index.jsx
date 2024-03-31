@@ -1,25 +1,15 @@
-import React, { useState } from "react";
-import Modal from "../Modal";
-import Project from "../Project";
+import React from "react";
 import style from "./index.module.css";
+import Content from "../Content";
 
 export default function MyProjects({ array_projects }) {
-	const [modalActive, setModalActive] = useState(false);
-
 	return (
 		<section className={style.section} id="project">
+			<h1>My projects</h1>
 			<div className={["wrapper", style.my_projects].join(" ")}>
-				<h1>My projects</h1>
-
-				<div onClick={() => setModalActive(true)} className={style.my_final_project}>
-					<h3>My final project</h3>
-				</div>
-
-				<Modal active={modalActive} setActive={setModalActive}>
-					{array_projects.map(el => (
-						<Project key={el.id} {...el} />
-					))}
-				</Modal>
+				{array_projects.map(el => (
+					<Content key={el.id} {...el} />
+				))}
 			</div>
 		</section>
 	);

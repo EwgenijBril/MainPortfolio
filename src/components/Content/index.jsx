@@ -1,13 +1,13 @@
 import React from "react";
 import style from "./index.module.css";
 
-export default function Project({ id, title, image, discription, link }) {
+export default function Content({ id, title, image, discription, link }) {
 	return (
-		<section>
-			<div className={style.project}>
+		<section className={style.block_content}>
+			<div className={style.content}>
+				<img src={image} alt={title} />
 				<h2>{title}</h2>
-				<div className={style.info_block}>
-					<img src={image} alt={title} />
+				<div className={style.block_discription}>
 					<p>{discription}</p>
 					<a href={link} target="blank">
 						<button className={style.btn}>Link </button>

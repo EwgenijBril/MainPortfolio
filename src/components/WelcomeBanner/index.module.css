@@ -16,10 +16,6 @@
 	font-size: 50px;
 }
 
-span {
-	text-shadow: 3px 4px rgba(0, 0, 0, 0.4);
-}
-
 .text {
 	color: #ff760d;
 	/* text-shadow: 3px 4px rgba(0, 0, 0, 0.4); */

@@ -14,6 +14,8 @@ export default function AboutMe() {
 						followed by a 7-month professional course, culminating in a final project where I
 						applied my skills in HTML5, CSS3, JavaScript, and React.
 						<br />
+						After completing the course, I worked for a year at an advertising agency, where I deepened my knowledge and gained new skills, such as Tailwind CSS, and learned about content management systems like WordPress. My main tasks also included fixing bugs on websites and improving the design of our clients' websites.
+						<br />
 						<br />
 						Currently, I am learning Typescript through Udemy courses and am eager to expand my
 						knowledge by learning the Next.js framework. I am actively seeking employment and

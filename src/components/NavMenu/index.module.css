@@ -5,7 +5,7 @@
 	box-shadow:
 		0 0.125rem 0.25rem rgb(0 0 0 / 8%),
 		0 0.5rem 0.75rem rgb(0 0 0 / 4%);
-	background-color: #3A2A78;
+	background-color: #3a2a78;
 }
 
 .menu {
@@ -26,7 +26,6 @@
 .block_menu {
 	display: flex;
 	list-style: none;
-
 }
 
 .block_menu a {
@@ -70,7 +69,7 @@
 		flex-direction: column;
 		width: 99%;
 		height: 100%;
-		background-color: #3A2A78;
+		background-color: #3a2a78;
 		transform: 0.3s linear;
 
 		transform: translateX(-100%);

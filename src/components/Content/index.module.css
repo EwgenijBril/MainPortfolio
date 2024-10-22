@@ -23,7 +23,7 @@
 .content h2 {
 	padding-top: 3rem;
 	padding-bottom: 1rem;
-	color: #4d4d4d;
+	color: #17a468 ;
 }
 
 .block_discription {
@@ -34,6 +34,7 @@
 	height: 24rem;
 }
 
+
 .block_discription span {
 	color: red;
 }
@@ -42,7 +43,7 @@
 	padding: 1rem;
 	text-align: justify;
 	vertical-align: bottom;
-	color: #4d4d4d;
+	color: #444444 ;
 }
 
 .btn {
@@ -50,11 +51,12 @@
 	margin: 12px 10px;
 	padding: 20px;
 	border-radius: 16px;
-
-	background: linear-gradient(to right, #ff760d, rgb(253, 61, 61));
+	background-color: #3A2A78;
 	color: white;
+	font-weight: 700;
 	border: none;
 	text-decoration: none;
+	font-family: Poppins,sans-serif;
 
 	text-align: center;
 
@@ -63,14 +65,12 @@
 
 .btn:hover {
 	box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
+	transform: scale(1.1);
+	background: white;
+	color: #17a468 ;
 }
 
 .btn a {
 	text-decoration: none;
 	color: white;
-}
-
-.btn:hover {
-	transform: scale(1.1);
-	background: #4d4d4d;
 }

@@ -28,7 +28,7 @@ export default function WelcomeBanner() {
 					<p>A junior frontend developer</p>
 				</div>
 				<div>
-					<h1>I create and build</h1>
+					<h1 className={style.right_block}>I create and build</h1>
 					{text ? <h1 className={style.text}>{text}</h1> : <h1 className={style.text}>{myText}</h1>}
 				</div>
 			</div>

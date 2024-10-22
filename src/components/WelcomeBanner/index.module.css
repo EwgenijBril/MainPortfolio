@@ -1,5 +1,8 @@
+section {
+	background-color: #3A2A78;
+}
 .block_banner {
-	margin-top: 80px;
+	margin-top: 0;
 	padding: 120px 16px;
 
 	display: flex;
@@ -10,6 +13,7 @@
 .block_banner p {
 	padding: 15px 0;
 	font-size: 20px;
+	color: white;
 }
 
 .block_banner h1 {
@@ -17,26 +21,15 @@
 }
 
 .block_banner span {
-	background: linear-gradient(
-		287deg,
-		rgba(253, 61, 61, 1),
-		rgba(255, 118, 13, 1),
-		rgba(172, 149, 2, 0.801)
-	);
-	/* background: linear-gradient(287deg, rgba(66,148,246,1) 6%, rgba(32,105,171,1) 50%, rgba(35,255,245,1) 99%); */
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+	color: #17a468;
+}
+
+.right_block {
+	color: white;
 }
 
 .text {
-	background: linear-gradient(
-		287deg,
-		rgba(253, 61, 61, 1),
-		rgba(255, 118, 13, 1),
-		rgba(172, 149, 2, 0.801)
-	);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+	color: #17a468;
 }
 
 @media not all and (min-width: 640px) {

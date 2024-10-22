@@ -1,5 +1,5 @@
 .section {
-	background-color: #333333;
+	background-color: #3A2A78;
 	color: white;
 }
 
@@ -13,8 +13,12 @@
 	width: 50%;
 }
 
-.mail {
-	color: #ff760d;
+.mail:hover {
+	color: #17a468;
+	transform: scale(1.1);
+	transition:
+		color 0.2s,
+		transform 0.1s;
 }
 
 .footer_block h4 {
@@ -53,6 +57,11 @@
 .footer_block h3 {
 	padding: 20px 0;
 	text-align: center;
+	color: #17a468;
+}
+
+h4 {
+	color: #17a468;
 }
 
 @media not all and (min-width: 640px) {

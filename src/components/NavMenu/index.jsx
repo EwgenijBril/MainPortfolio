@@ -24,7 +24,7 @@ export default function NavMenu() {
 				<nav className={`${style.nav_menu} ${menuActive ? style.active : ""}`}>
 					<ul className={style.block_menu}>
 						<a href="#about" onClick={closeMenu}>
-							<li>About me</li>
+							<li>About</li>
 						</a>
 						<a href="#skills" onClick={closeMenu}>
 							<li>Skill</li>

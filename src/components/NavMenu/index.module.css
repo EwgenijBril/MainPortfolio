@@ -5,7 +5,7 @@
 	box-shadow:
 		0 0.125rem 0.25rem rgb(0 0 0 / 8%),
 		0 0.5rem 0.75rem rgb(0 0 0 / 4%);
-	background-color: #4d4d4d;
+	background-color: #3A2A78;
 }
 
 .menu {
@@ -15,7 +15,6 @@
 
 	color: white;
 	font-size: 24px;
-	font-family: "Merriweather", serif;
 }
 
 .logo_menu img {
@@ -27,6 +26,7 @@
 .block_menu {
 	display: flex;
 	list-style: none;
+
 }
 
 .block_menu a {
@@ -36,7 +36,7 @@
 
 .block_menu li {
 	padding: 20px 0 20px 100px;
-	font-size: 16px;
+	font-size: 1.2vw;
 	color: white;
 	transition:
 		color 0.2s,
@@ -44,7 +44,7 @@
 }
 
 .block_menu li:hover {
-	color: #ff760d;
+	color: #17a468;
 	transform: scale(1.1);
 }
 
@@ -70,7 +70,7 @@
 		flex-direction: column;
 		width: 99%;
 		height: 100%;
-		background-color: #4d4d4d;
+		background-color: #3A2A78;
 		transform: 0.3s linear;
 
 		transform: translateX(-100%);

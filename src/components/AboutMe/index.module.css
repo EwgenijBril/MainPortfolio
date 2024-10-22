@@ -17,9 +17,15 @@
 	line-height: 1.5rem;
 }
 
+.discription_block h1 {
+	color: #17a468;
+}
+
 .discription_block p {
 	text-align: justify;
-	font-family: "Merriweather", serif;
+	
+	font-size: 1rem;
+	color: #444444 ;
 	padding: 30px 0;
 }
 
@@ -34,11 +40,11 @@ img {
 	margin: 12px 0;
 	padding: 20px;
 	border-radius: 16px;
-
-	background: linear-gradient(to right, #ff760d, rgb(253, 61, 61));
+	background-color: #17a468;
 	color: white;
-	border: none;
 	text-decoration: none;
+	
+	font-size: 0.8rem;
 
 	text-align: center;
 
@@ -47,7 +53,6 @@ img {
 
 .discription_block a:hover {
 	transform: scale(1.1);
-	background: #4d4d4d;
 }
 
 @media not all and (min-width: 640px) {
@@ -64,6 +69,10 @@ img {
 
 	.discription_block h1 {
 		text-align: center;
+	}
+
+	.discription_block p {
+		font-size: none;
 	}
 
 	.discription_block a {

@@ -24,5 +24,4 @@ export const projects = [
 			"This project is a garden online store, where goods were filtered by price, by promotions and sorted. You can also view a specific category or product, all products or products with promotions.The following libraries have been used, such as react-redux, react-thunk, react-router-dom,  react-router-hash-link.",
 		link: "https://gardenshop-r964.onrender.com",
 	},
-	
 ];

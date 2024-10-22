@@ -78,7 +78,7 @@
 
 	.logo_menu img {
 		margin: 1rem;
-		width: 35%;
+		width: 25%;
 	}
 
 	.active {
@@ -102,7 +102,7 @@
 
 	.menu_button {
 		display: flex;
-		font-size: 3rem;
+		width: 2.5rem;
 		color: white;
 	}
 }

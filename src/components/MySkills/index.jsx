@@ -7,15 +7,15 @@ export default function MySkills() {
 		<section className={style.block_my_skills} id="skills">
 			<div className={["wrapper", style.my_skills].join(" ")}>
 				<div>
-					<h1>Skills</h1>
+					<h1>My Tech Stack</h1>
 					<p>
 						I have completed my further education as a frontend developer and gained valuable
 						experience. But I also understand that I am at the beginning of the road. In addition, I
-						am looking forward to using my hard skills with you. These include HTML5, CSS3,
-						JavaScript, React, React-Redux. Furthermore, I have studied databases MySQL and MongoDB,
-						am familiar with Git, and have experience with Git Bash and GitHub. I can use the Rest
-						API and Postman and also have basic knowledge of Node.js. I have also used Jira Software
-						for various tasks.
+						am looking forward to using my hard skills with you. These include HTML5, CSS3, TailWind
+						Css, JavaScript, TypeScript, React, Next.js, React-Redux, Prisma, Furthermore, I have
+						studied databases MySQL, MongoDB, and PostgreSQL, am familiar with Git, and have
+						experience with Git Bash and GitHub. I can use the Rest API and Postman and also have
+						basic knowledge of Node.js. I have also used Jira Software for various tasks.
 					</p>
 				</div>
 				<div>
@@ -31,12 +31,30 @@ export default function MySkills() {
 						<p>CSS3</p>
 					</div>
 					<div>
+						<img
+							src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg"
+							alt="tailwind"
+						/>
+						<p>Tailwind Css</p>
+					</div>
+					<div>
 						<img src="https://www.vectorlogo.zone/logos/javascript/javascript-icon.svg" alt="js" />
 						<p>JS</p>
 					</div>
 					<div>
+						<img
+							src="https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-icon.svg"
+							alt="TS"
+						/>
+						<p>TypeScript</p>
+					</div>
+					<div>
 						<img src="https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg" alt="react" />
 						<p>REACT</p>
+					</div>
+					<div>
+						<img src={next} alt="NextJS" />
+						<p>NEXT.js</p>
 					</div>
 					<div>
 						<img
@@ -57,22 +75,22 @@ export default function MySkills() {
 						<img src="https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg" alt="mongodb" />
 						<p>MONGODB</p>
 					</div>
+					<div>
+						<img
+							src="https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg"
+							alt="postgresql"
+						/>
+						<p>PostgreSQL</p>
+					</div>
 				</div>
 				<div className={style.block_learing}>
 					<div>
 						<h1>Learing:</h1>
 					</div>
 					<div className={style.block_TS_NextJS}>
-						<div className={style.next}>
-							<img
-								src="https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-icon.svg"
-								alt="TS"
-							/>
-							<p>TypeScript</p>
-						</div>
 						<div>
-							<img src={next} alt="NextJS" />
-							<p>NEXT.js</p>
+							<img src="https://www.vectorlogo.zone/logos/docker/docker-icon.svg" alt="docker" />
+							<p>Docker</p>
 						</div>
 					</div>
 				</div>

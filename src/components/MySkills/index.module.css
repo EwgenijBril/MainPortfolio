@@ -1,5 +1,11 @@
 .block_my_skills {
-	background: linear-gradient(to right, #ff760d, #4d4d4d);
+	background: linear-gradient(
+		287deg,
+		rgba(77, 77, 77, 1),
+		rgba(255, 118, 13, 1),
+		rgba(172, 149, 2, 0.801)
+	);
+	/* background: linear-gradient(287deg, rgba(66,148,246,1) 6%, rgba(32,105,171,1) 50%, rgba(35,255,245,1) 99%); */
 }
 .my_skills {
 	display: block;
@@ -17,19 +23,20 @@
 	text-align: justify;
 	font-family: "Merriweather", serif;
 	color: white;
+	line-height: 1.8rem;
 }
 
 .block_pictures {
 	padding: 26px 0;
 	display: grid;
-	grid-template-columns: repeat(4, 1fr);
+	grid-template-columns: repeat(4, minmax(0, 1fr));
 	row-gap: 20px;
 	align-items: center;
 	text-align: center;
 }
 
 .block_pictures img {
-	width: 100px;
+	width: 76px;
 	margin: 5px;
 	/* align-items: center; */
 }
@@ -48,8 +55,8 @@
 }
 
 .block_learing img {
-	height: 100px;
-	width: 100px;
+	height: 76px;
+	width: 76px;
 }
 
 .block_TS_NextJS {

@@ -16,9 +16,27 @@
 	font-size: 50px;
 }
 
+.block_banner span {
+	background: linear-gradient(
+		287deg,
+		rgba(253, 61, 61, 1),
+		rgba(255, 118, 13, 1),
+		rgba(172, 149, 2, 0.801)
+	);
+	/* background: linear-gradient(287deg, rgba(66,148,246,1) 6%, rgba(32,105,171,1) 50%, rgba(35,255,245,1) 99%); */
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
 .text {
-	color: #ff760d;
-	/* text-shadow: 3px 4px rgba(0, 0, 0, 0.4); */
+	background: linear-gradient(
+		287deg,
+		rgba(253, 61, 61, 1),
+		rgba(255, 118, 13, 1),
+		rgba(172, 149, 2, 0.801)
+	);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 @media not all and (min-width: 640px) {

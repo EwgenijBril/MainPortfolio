@@ -1,4 +1,4 @@
-import logo from "./media/Logo.png";
+import logo from "./media/logo6.png";
 import style from "./index.module.css";
 import { MenuOutlined } from "@ant-design/icons";
 import { useState } from "react";

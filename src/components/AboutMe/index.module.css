@@ -52,7 +52,8 @@ img {
 }
 
 .discription_block a:hover {
-	transform: scale(1.1);
+	transform: skewX(20deg);
+	box-shadow: 0px 0px 20px 0px rgba(23, 164, 104, 1);
 }
 
 @media not all and (min-width: 640px) {
